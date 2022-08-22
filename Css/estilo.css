@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    
+}
+body {
+    margin: 0;
+    background-color: #333;
+    font-family: sans-serif;
+    color: aliceblue;
+    /* position: relative;
+    padding-bottom: 3em;
+    min-height: 100vh; */
+}
+.header {
+    background-color: rgb(18, 171, 222);
+    padding: 1em 0;
+    text-align: center;
+    letter-spacing: 0.2em;
+    margin-bottom: 1em;
+}
+nav ul {
+    background-color: rgb(18, 171, 222);
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+nav li {
+    display: inline-flex;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 150px;
+}
+nav li:hover {
+    background-color: #333;
+}
+main{
+    width: 50vw;
+    height: 50vh;
+    text-align: center;
+    background-color: #849486;
+    margin: 0px auto;
+}
+.mainSesion{
+    width: 30vw;
+    height: 35vh;
+    text-align: center;
+    background-color: #849486;
+}
+
+.mainAgregar{
+    width: 30vw;
+    height: 72vh;
+    text-align: center;
+    background-color: #849486;
+}
+.mainProductos{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background-color: #849486;
+    margin: 0px auto;
+}
+main table {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+main table caption {
+    padding-bottom: 20px;
+    font-style: italic;
+    font-size: larger;
+    color: black;
+}
+main table th {
+    background-color: #333;
+    color: aliceblue;
+}
+main table td, th {
+    border: 2px solid black;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;   
+}
+h2{
+    color: black;
+    text-align: center;
+}
+div.galeria{
+    margin: 10px 20px;
+    box-shadow: lightblue;
+    float: left;
+    width: 270px;
+}
+div.galeria img{
+    width: 100%;
+    height: auto;
+}
+div.galeria:hover{
+    border: 2px solid lightcoral;
+    transform: rotate(-1deg);
+}
+div.pie{
+    text-align: center;
+    padding: 10px;
+}
+
+.footer {
+    background-color: rgb(18, 171, 222);
+    padding: 1em 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
