@@ -6,13 +6,3 @@
     }
 
 }
-
-/* ---------------------------- buscardor (max-width: 768px) ----------------------  */
-
-@media (max-width: 768px){
-    
-    .header .busqueda{
-        width: 30rem;
-    }
-
-}

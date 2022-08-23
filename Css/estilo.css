@@ -7,6 +7,7 @@ body {
     background-color: #333;
     font-family: sans-serif;
     color: aliceblue;
+    /*position: relative;*/
     /* position: relative;
     padding-bottom: 3em;
     min-height: 100vh; */
@@ -17,6 +18,7 @@ body {
     text-align: center;
     letter-spacing: 0.2em;
     margin-bottom: 1em;
+    
 }
 nav ul {
     background: linear-gradient(135deg, #2b302f 0%, #2c3330 100%);
@@ -34,7 +36,7 @@ nav a{
     width: 150px;
 }
 nav li:hover {
-    background-color: #333;
+    background-color: rgb(129, 139, 131);
 }
 main{
     width: 50vw;
@@ -48,6 +50,7 @@ main{
     height: 35vh;
     text-align: center;
     background-color: #849486;
+    
 }
 
 .mainAgregar{
@@ -92,7 +95,7 @@ h2{
 }
 div.galeria{
     margin: 10px 20px;
-    box-shadow: lightblue;
+    box-shadow: rgb(222, 240, 247);
     float: left;
     width: 270px;
 }
@@ -104,11 +107,6 @@ div.galeria:hover{
     border: 2px solid lightcoral;
     transform: rotate(-1deg);
 }
-div.pie{
-    text-align: center;
-    padding: 10px;
-}
-
 .footer {
     background-color: rgb(18, 171, 222);
     padding: 1em 0;
